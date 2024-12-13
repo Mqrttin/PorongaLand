@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://cdn.discordapp.com/attachments/1310007743360401488/1316942161887105034/42_sin_titulo_20241030062732.png?ex=675d8a36&is=675c38b6&hm=4ae80ed512bb931f4ecd4eac468ce5cf92610a1d89729ff0cce68483093cb6e1&"
     },
     "license": "CCANC",
     "nodemonConfig": {
