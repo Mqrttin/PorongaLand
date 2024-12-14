@@ -282,14 +282,14 @@
     background-size: cover;
     image-rendering: pixelated;
     transition: var(--transition);
-    height: 4rem; /* Tamaño aumentado */
-    width: 4em;  /* Tamaño aumentado */
+    height: 5rem; /* Tamaño aumentado */
+    width: 5em;  /* Tamaño aumentado */
     pointer-events: none;
     border-radius: 15px;
     justify-content: left;
     align-items: left;
     margin-left: 0;
-    transform: translateY(-14px); /* Mover hacia arriba */
+    transform: translate(-14px, -54px); /* Mover hacia arriba */
 }
   
   .player-menu {
@@ -323,7 +323,7 @@
     text-align: center;
     padding: 12px 44px;
     border: solid 2px #e90404;
-    height: 4rem; /* Tamaño aumentado */
+    height: 5rem; /* Tamaño aumentado */
     width: 14em;  /* Tamaño aumentado */
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
@@ -334,7 +334,7 @@
     -webkit-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
     -moz-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
     box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
-    transform: translateY(-14px);
+    transform: translate(-14px, -54px);
   
     text-shadow: 0px 0px 20px #bababa;
     filter: dropshadow(color=#bababa, offx=0, offy=0);
@@ -464,10 +464,10 @@
   .settings-btn {
     text-decoration: none;
     text-align: center;
-    padding: 21px 21px;
+    padding: 30px 30px;
     border: solid 2px #e90404;
-    height: 4rem; /* Tamaño aumentado */
-    width: 4em;  /* Tamaño aumentado */
+    height: 5rem; /* Tamaño aumentado */
+    width: 5em;  /* Tamaño aumentado */
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
     border-radius: 13px;
@@ -477,7 +477,7 @@
     -webkit-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
     -moz-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
     box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
-    transform: translateY(-14px);
+    transform: translate(0px, -54px);
   
     text-shadow: 0px 0px 20px #bababa;
     filter: dropshadow(color=#bababa, offx=0, offy=0);
@@ -491,7 +491,7 @@
   }
   
   .settings-btn:hover {
-    padding: 21px 21px;
+    padding: 30px 30px;
     border: solid 2px #e90404;
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;

@@ -13,6 +13,19 @@ const fs = require('fs');
 const UpdateWindow = require("./assets/js/windows/updateWindow.js");
 const MainWindow = require("./assets/js/windows/mainWindow.js");
 
+const rpc = require('discord-rich-presence')('1317533003563401357');
+
+rpc.updatePresence({
+  state: 'Seleccionando instancia',
+  details: 'Usando Cataclysm Launcher',
+  startTimestamp: Date.now(),
+  largeImageKey: 'logo',
+  largeImageText: 'Cataclysm Launcher',
+  instance: true,
+});
+
+console.log("Discord Rich Presence activado.");
+
 let dev = process.env.NODE_ENV === 'dev';
 
 if (dev) {

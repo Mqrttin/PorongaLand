@@ -9,7 +9,6 @@ const os = require('os');
 import { config, database } from './utils.js';
 const nodeFetch = require("node-fetch");
 
-
 class Splash {
     constructor() {
         this.splash = document.querySelector(".splash");
@@ -30,7 +29,7 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Cataclysm Launcher", "Creador": "ImNotRuso/Mqrttin" },
+            { "message": "Cataclysm Launcher", "Creador": "NickZeroMusic/TheElematric" },
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
