@@ -1,7 +1,7 @@
 {
     "name": "cataclysm-launcher",
     "preductname": "Cataclysm Launcher",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Launcher Oficial de Cataclysm",
     "main": "src/app.js",
     "author": {

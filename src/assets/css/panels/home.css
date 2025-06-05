@@ -168,10 +168,10 @@
     bottom: 0;
     right: 0;
     width: 10%;
-    height: calc(100%- 1rem);
+    height: calc(100% - 1rem);
     justify-content: center;
     align-items: center;
-    transform: translateY(-200px);
+    transform: translateY(-300px);
   }
   
   .social-list {
@@ -242,8 +242,8 @@
     align-items: center;
     align-content: center;
     background-repeat: no-repeat;
-    height: 44;
-    width: 55%;
+    height: 55;
+    width: 66%;
     filter: var(--svg-color);
   }
   
@@ -289,7 +289,7 @@
     justify-content: left;
     align-items: left;
     margin-left: 0;
-    transform: translate(-14px, -55px); /* Mover hacia arriba */
+    transform: translate(41px, -55px); /* Mover hacia arriba */
 }
   
   .player-menu {
@@ -328,13 +328,13 @@
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
     border-radius: 13px;
-    font: 14px "Poppins";
+    font: 20px "Poppins";
     color: #e90404;
     background: transparent;
     -webkit-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
     -moz-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
     box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
-    transform: translate(-14px, -8px);
+    transform: translate(41px, -8px);
   
     text-shadow: 0px 0px 20px #bababa;
     filter: dropshadow(color=#bababa, offx=0, offy=0);
@@ -350,7 +350,7 @@
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
     border-radius: 13px;
-    font: 14px Poppins;
+    font: 20px Poppins;
     color: #e90404;
     background: transparent;
     -webkit-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
@@ -379,7 +379,7 @@
     -webkit-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
     -moz-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
     box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
-    transform: translate(-230px, -95px);
+    transform: translate(-175px, -95px);
   
     text-shadow: 0px 0px 20px #bababa;
     filter: dropshadow(color=#bababa, offx=0, offy=0);
@@ -466,6 +466,9 @@
   }
   
   .settings-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     text-align: center;
     padding: 30px 30px;
@@ -481,7 +484,7 @@
     -webkit-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
     -moz-box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
     box-shadow: 0px 0px 20px #bababa, inset 0px 0px 1px #ffffff;
-    transform: translate(-25px, -55px);
+    transform: translate(30px, -55px);
   
     text-shadow: 0px 0px 20px #bababa;
     filter: dropshadow(color=#bababa, offx=0, offy=0);
@@ -492,6 +495,12 @@
     margin: 7.5px;
     height: 16px;
     width: 16px;
+  }
+  
+  .settings-btn.icon-settings:before {
+    font-size: 38px; /* o el tamaño que quieras */
+    line-height: 1;
+    color: #e90404; /* igual que el botón, opcional */
   }
   
   .settings-btn:hover {
