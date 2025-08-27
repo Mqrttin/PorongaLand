@@ -17,7 +17,7 @@ const rpc = require('discord-rich-presence')('1410084470450684034');
 
 rpc.updatePresence({
   state: 'Seleccionando instancia',
-  details: 'Usando PorongaLand Launcher',
+  details: 'Usando PorongaLand',
   startTimestamp: Date.now(),
   largeImageKey: 'logo',
   largeImageText: 'PorongaLand',
