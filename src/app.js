@@ -13,14 +13,14 @@ const fs = require('fs');
 const UpdateWindow = require("./assets/js/windows/updateWindow.js");
 const MainWindow = require("./assets/js/windows/mainWindow.js");
 
-const rpc = require('discord-rich-presence')('1317533003563401357');
+const rpc = require('discord-rich-presence')('1410084470450684034');
 
 rpc.updatePresence({
   state: 'Seleccionando instancia',
-  details: 'Usando Cataclysm Launcher',
+  details: 'Usando PorongaLand Launcher',
   startTimestamp: Date.now(),
   largeImageKey: 'logo',
-  largeImageText: 'Cataclysm Launcher',
+  largeImageText: 'PorongaLand',
   instance: true,
 });
 

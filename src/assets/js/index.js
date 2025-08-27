@@ -29,7 +29,7 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Cataclysm Launcher", "Creador": "NickZeroMusic/TheElematric" },
+            { "message": "PorongaLand", "Creador": "Azumineitor/3EPlay" },
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
