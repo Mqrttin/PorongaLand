@@ -1,15 +1,15 @@
 {
-    "name": "cataclysm-launcher",
-    "preductname": "Cataclysm Launcher",
+    "name": "porongaland-launcher",
+    "preductname": "Poronga Land",
     "version": "1.0.2",
-    "description": "Launcher Oficial de Cataclysm",
+    "description": "Launcher Oficial de PorongaLand",
     "main": "src/app.js",
     "author": {
         "name": "ImNotRuso / Mqrttin",
         "email": "contacto@gmail.com",
         "url": "https://github.com/Mqrttin"
     },
-    "url": "https://cataclysmclient.websr.fr/cataclysm",
+    "url": "nuevo url",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
@@ -41,6 +41,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Mqrttin/CataclysmLauncher.git"
+        "url": "git+https://github.com/Mqrttin/PorongaLand.git"
     }
 }
